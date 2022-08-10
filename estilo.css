@@ -1,0 +1,129 @@
+/*font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+#contenedor {
+  padding: 50px;
+}
+#logo {
+  margin: auto;
+  width: 40%;
+}
+#logo img {
+  width: 100%;
+}
+#links {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-direction: row;
+  margin-top: 50px;
+}
+#links article {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  justify-content: center;
+  width: 220px;
+}
+#links article a:hover {
+  color: #999;
+}
+.redessociales {
+  display: inline-block;
+  vertical-align: top;
+  font-family: abel;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 7px;
+}
+.pagina {
+  display: block;
+  vertical-align: top;
+  font-family: abel;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.pagina:hover {
+  color: #999;
+}
+#links a {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1000px) {
+  #logo {
+    margin: auto;
+    width: 50%;
+  }
+  #links {
+  }
+  #links article {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #logo {
+    margin: auto;
+    width: 60%;
+  }
+  #links {
+    margin-top: 30px;
+  }
+  #links article {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #logo {
+    margin: auto;
+    width: 70%;
+  }
+  #contenedor {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 560px) {
+  #links {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  #logo {
+    margin: auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 560px) {
+  #links article {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #logo {
+    margin: auto;
+    width: 80%;
+  }
+}
